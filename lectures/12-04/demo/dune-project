@@ -1,0 +1,11 @@
+(lang dune 3.17)
+
+(name demo)
+
+(generate_opam_files true)
+
+(package
+ (name demo)
+ (depends ocaml))
+
+(using menhir 3.0)
